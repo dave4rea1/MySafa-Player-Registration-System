@@ -1,0 +1,75 @@
+/* 
+body {
+    background: linear-gradient(135deg, #fce8fc, #6b47ff, rgb(245, 16, 245));
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } */
+
+  body {
+    background-image: url('images/ea-sports-fc-24-football-players-4k-wallpaper-uhdpaper.com-132@1@m.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+
+  #centerpage {
+    background-color: rgba(214, 211, 239, 0.1);
+    color: white;
+    border: none;
+    padding: 2em;
+    border-radius: 10px;
+    width: 40%; /* Set the width to 40% */
+    max-width: none; /* Remove the max-width constraint */
+    max-height: 85%;
+    margin-left: 2em; /* Adjust the left margin as needed */
+    margin-top: 3em;
+  }
+
+div.message {
+    border: 2px solid #c0c0c0;
+    padding-top: 1em;
+    padding-bottom: 40px;
+    color: white;
+    background-color: #dd0000;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+div.SuccessMessage {
+    border: 2px solid #c0c0c0;
+    padding-top: 1em;
+    padding-bottom: 40px;
+    color: white;
+    background-color: rgb(0, 221, 22);
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.football-icon {
+  font-size: 1.2em; /* Adjust the size of the icon as needed */
+  color: #FFD700; /* Set the icon color to gold */
+  margin-right: 5px; /* Add some spacing between the icon and the text */
+}
